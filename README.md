@@ -1,6 +1,8 @@
+> Note. this post is exported from my [notion](https://boiling-dodo-2b9.notion.site/Diablo3-API-15bfa806a49a455598573f4dfa1ddf22).
+
 # Diablo3 API
 
-This project is about creating an item dictionary for the video game Diablo 3, using the official Blizzard API. The Blizzard API provides not only the Diablo 3 API, but also APIs for Starcraft 2, WoW, and the Overwatch League. It is possible that Blizzard may open up the Diablo 4 API after the game's release. As the Blizzard API already provides access to APIs for other popular games like Starcraft 2, WoW, and the Overwatch League, it would not be surprising if they added Diablo 4 to their list of available APIs. We will have to wait and see what Blizzard decides to do, but the potential for a new API is exciting for both players and developers alike.
+This project is about creating an simple app for the video game Diablo 3, using the official Blizzard API. The Blizzard API provides not only the Diablo 3 API, but also APIs for Starcraft 2, WoW, and the Overwatch League. It is possible that Blizzard may open up the Diablo 4 API after the game's release. As the Blizzard API already provides access to APIs for other popular games like Starcraft 2, WoW, and the Overwatch League, it would not be surprising if they added Diablo 4 to their list of available APIs. We will have to wait and see what Blizzard decides to do, but the potential for a new API is exciting for both players and developers alike.
 
  In this project, I will create a Diablo 3 api app(act, artisan, and recipe info etc…), and also use SwiftUI and TCA. This app dose not cover the complete UI, but rather focuses solely on networking with the Blizzard API and parsing data received from it.
 

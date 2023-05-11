@@ -8,17 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		835CFA1F29DC003800DF161D /* diablo3BeforeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA1E29DC003800DF161D /* diablo3BeforeApp.swift */; };
-		835CFA2129DC003800DF161D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA2029DC003800DF161D /* ContentView.swift */; };
 		835CFA2329DC003900DF161D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835CFA2229DC003900DF161D /* Assets.xcassets */; };
 		835CFA2629DC003900DF161D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835CFA2529DC003900DF161D /* Preview Assets.xcassets */; };
+		835CFA3929DC0E1B00DF161D /* BlizzardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA3829DC0E1B00DF161D /* BlizzardAPI.swift */; };
+		835CFA3B29DC0E5300DF161D /* BlizzardCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA3A29DC0E5300DF161D /* BlizzardCredentials.swift */; };
+		835CFA3D29DC126E00DF161D /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA3C29DC126E00DF161D /* Token.swift */; };
+		835CFA3F29DC136600DF161D /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA3E29DC136600DF161D /* Region.swift */; };
+		835CFA4129DC163D00DF161D /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA4029DC163D00DF161D /* Locale.swift */; };
+		835CFA4529DC1A0D00DF161D /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA4429DC1A0D00DF161D /* AuthRepository.swift */; };
+		835CFA4729DC1AE900DF161D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA4629DC1AE900DF161D /* WebService.swift */; };
+		835CFA4929DC1BED00DF161D /* HttpHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA4829DC1BED00DF161D /* HttpHeader.swift */; };
+		835CFA4B29DC1D9300DF161D /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA4A29DC1D9300DF161D /* HttpError.swift */; };
+		835CFA4D29DC1E2C00DF161D /* AuthenticationWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA4C29DC1E2C00DF161D /* AuthenticationWebService.swift */; };
+		835CFA5029DC1F6E00DF161D /* DefaultAuthenticationWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA4F29DC1F6E00DF161D /* DefaultAuthenticationWebService.swift */; };
+		835CFA5329DC263000DF161D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA5229DC263000DF161D /* Home.swift */; };
+		835CFA5729DEB56C00DF161D /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA5629DEB56C00DF161D /* KeychainHelper.swift */; };
+		835CFA5A29DEC9B600DF161D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 835CFA5929DEC9B600DF161D /* ComposableArchitecture */; };
+		835CFA6329E02A0100DF161D /* Diablo3CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA6229E02A0100DF161D /* Diablo3CommunityView.swift */; };
+		835CFA6529E02A0800DF161D /* Diablo3GameDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CFA6429E02A0800DF161D /* Diablo3GameDataView.swift */; };
+		83A0E6AD29F8B7C800D20599 /* Diablo3WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0E6AC29F8B7C800D20599 /* Diablo3WebService.swift */; };
+		83A0E6AF29F8BE5900D20599 /* Diablo3Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0E6AE29F8BE5900D20599 /* Diablo3Repository.swift */; };
+		83A0E6B129F8C0E400D20599 /* DefaultDiablo3WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0E6B029F8C0E400D20599 /* DefaultDiablo3WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		835CFA1B29DC003800DF161D /* diablo3Before.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diablo3Before.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835CFA1E29DC003800DF161D /* diablo3BeforeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diablo3BeforeApp.swift; sourceTree = "<group>"; };
-		835CFA2029DC003800DF161D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		835CFA2229DC003900DF161D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		835CFA2529DC003900DF161D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		835CFA3829DC0E1B00DF161D /* BlizzardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlizzardAPI.swift; sourceTree = "<group>"; };
+		835CFA3A29DC0E5300DF161D /* BlizzardCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlizzardCredentials.swift; sourceTree = "<group>"; };
+		835CFA3C29DC126E00DF161D /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		835CFA3E29DC136600DF161D /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		835CFA4029DC163D00DF161D /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		835CFA4429DC1A0D00DF161D /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		835CFA4629DC1AE900DF161D /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		835CFA4829DC1BED00DF161D /* HttpHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHeader.swift; sourceTree = "<group>"; };
+		835CFA4A29DC1D9300DF161D /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		835CFA4C29DC1E2C00DF161D /* AuthenticationWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationWebService.swift; sourceTree = "<group>"; };
+		835CFA4F29DC1F6E00DF161D /* DefaultAuthenticationWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAuthenticationWebService.swift; sourceTree = "<group>"; };
+		835CFA5229DC263000DF161D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		835CFA5429DEA4EC00DF161D /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		835CFA5529DEA64D00DF161D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		835CFA5629DEB56C00DF161D /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		835CFA6229E02A0100DF161D /* Diablo3CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diablo3CommunityView.swift; sourceTree = "<group>"; };
+		835CFA6429E02A0800DF161D /* Diablo3GameDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diablo3GameDataView.swift; sourceTree = "<group>"; };
+		83A0E6AC29F8B7C800D20599 /* Diablo3WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diablo3WebService.swift; sourceTree = "<group>"; };
+		83A0E6AE29F8BE5900D20599 /* Diablo3Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diablo3Repository.swift; sourceTree = "<group>"; };
+		83A0E6B029F8C0E400D20599 /* DefaultDiablo3WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDiablo3WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835CFA5A29DEC9B600DF161D /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +73,7 @@
 		835CFA1229DC003700DF161D = {
 			isa = PBXGroup;
 			children = (
+				835CFA5429DEA4EC00DF161D /* Secrets.xcconfig */,
 				835CFA1D29DC003800DF161D /* diablo3Before */,
 				835CFA1C29DC003800DF161D /* Products */,
 			);
@@ -51,8 +90,13 @@
 		835CFA1D29DC003800DF161D /* diablo3Before */ = {
 			isa = PBXGroup;
 			children = (
+				835CFA5529DEA64D00DF161D /* Info.plist */,
 				835CFA1E29DC003800DF161D /* diablo3BeforeApp.swift */,
-				835CFA2029DC003800DF161D /* ContentView.swift */,
+				835CFA5129DC261600DF161D /* View */,
+				835CFA4E29DC1F5900DF161D /* WebService */,
+				835CFA3729DC0E0D00DF161D /* Network */,
+				835CFA2C29DC004C00DF161D /* Model */,
+				83A0E6E82A0CC14600D20599 /* Util */,
 				835CFA2229DC003900DF161D /* Assets.xcassets */,
 				835CFA2429DC003900DF161D /* Preview Content */,
 			);
@@ -65,6 +109,115 @@
 				835CFA2529DC003900DF161D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		835CFA2C29DC004C00DF161D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA2F29DC006A00DF161D /* Repositories */,
+				835CFA2E29DC006600DF161D /* Object */,
+				835CFA2D29DC006200DF161D /* Auth */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		835CFA2D29DC006200DF161D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA3A29DC0E5300DF161D /* BlizzardCredentials.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		835CFA2E29DC006600DF161D /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA3429DC00FD00DF161D /* Network */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		835CFA2F29DC006A00DF161D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA4429DC1A0D00DF161D /* AuthRepository.swift */,
+				83A0E6AE29F8BE5900D20599 /* Diablo3Repository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		835CFA3429DC00FD00DF161D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA3C29DC126E00DF161D /* Token.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		835CFA3729DC0E0D00DF161D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA3829DC0E1B00DF161D /* BlizzardAPI.swift */,
+				835CFA3E29DC136600DF161D /* Region.swift */,
+				835CFA4029DC163D00DF161D /* Locale.swift */,
+				835CFA4629DC1AE900DF161D /* WebService.swift */,
+				835CFA4829DC1BED00DF161D /* HttpHeader.swift */,
+				835CFA4A29DC1D9300DF161D /* HttpError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		835CFA4E29DC1F5900DF161D /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				83A0E6EA2A0CC1F800D20599 /* AuthenticationWebService */,
+				83A0E6E92A0CC1DC00D20599 /* D3WebService */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		835CFA5129DC261600DF161D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA5229DC263000DF161D /* Home.swift */,
+				835CFA6129E029C100DF161D /* Diablo3 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		835CFA6129E029C100DF161D /* Diablo3 */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA6229E02A0100DF161D /* Diablo3CommunityView.swift */,
+				835CFA6429E02A0800DF161D /* Diablo3GameDataView.swift */,
+			);
+			path = Diablo3;
+			sourceTree = "<group>";
+		};
+		83A0E6E82A0CC14600D20599 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA5629DEB56C00DF161D /* KeychainHelper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		83A0E6E92A0CC1DC00D20599 /* D3WebService */ = {
+			isa = PBXGroup;
+			children = (
+				83A0E6AC29F8B7C800D20599 /* Diablo3WebService.swift */,
+				83A0E6B029F8C0E400D20599 /* DefaultDiablo3WebService.swift */,
+			);
+			path = D3WebService;
+			sourceTree = "<group>";
+		};
+		83A0E6EA2A0CC1F800D20599 /* AuthenticationWebService */ = {
+			isa = PBXGroup;
+			children = (
+				835CFA4C29DC1E2C00DF161D /* AuthenticationWebService.swift */,
+				835CFA4F29DC1F6E00DF161D /* DefaultAuthenticationWebService.swift */,
+			);
+			path = AuthenticationWebService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +236,9 @@
 			dependencies = (
 			);
 			name = diablo3Before;
+			packageProductDependencies = (
+				835CFA5929DEC9B600DF161D /* ComposableArchitecture */,
+			);
 			productName = diablo3Before;
 			productReference = 835CFA1B29DC003800DF161D /* diablo3Before.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +267,9 @@
 				Base,
 			);
 			mainGroup = 835CFA1229DC003700DF161D;
+			packageReferences = (
+				835CFA5829DEC9B600DF161D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 835CFA1C29DC003800DF161D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +296,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835CFA2129DC003800DF161D /* ContentView.swift in Sources */,
+				835CFA4729DC1AE900DF161D /* WebService.swift in Sources */,
+				835CFA6529E02A0800DF161D /* Diablo3GameDataView.swift in Sources */,
+				835CFA3F29DC136600DF161D /* Region.swift in Sources */,
+				835CFA6329E02A0100DF161D /* Diablo3CommunityView.swift in Sources */,
+				83A0E6AD29F8B7C800D20599 /* Diablo3WebService.swift in Sources */,
+				835CFA5329DC263000DF161D /* Home.swift in Sources */,
+				835CFA3B29DC0E5300DF161D /* BlizzardCredentials.swift in Sources */,
+				835CFA4929DC1BED00DF161D /* HttpHeader.swift in Sources */,
+				83A0E6B129F8C0E400D20599 /* DefaultDiablo3WebService.swift in Sources */,
+				83A0E6AF29F8BE5900D20599 /* Diablo3Repository.swift in Sources */,
+				835CFA4B29DC1D9300DF161D /* HttpError.swift in Sources */,
+				835CFA4D29DC1E2C00DF161D /* AuthenticationWebService.swift in Sources */,
+				835CFA5029DC1F6E00DF161D /* DefaultAuthenticationWebService.swift in Sources */,
 				835CFA1F29DC003800DF161D /* diablo3BeforeApp.swift in Sources */,
+				835CFA4129DC163D00DF161D /* Locale.swift in Sources */,
+				835CFA5729DEB56C00DF161D /* KeychainHelper.swift in Sources */,
+				835CFA3929DC0E1B00DF161D /* BlizzardAPI.swift in Sources */,
+				835CFA4529DC1A0D00DF161D /* AuthRepository.swift in Sources */,
+				835CFA3D29DC126E00DF161D /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +323,7 @@
 /* Begin XCBuildConfiguration section */
 		835CFA2729DC003900DF161D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835CFA5429DEA4EC00DF161D /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -207,6 +384,7 @@
 		};
 		835CFA2829DC003900DF161D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835CFA5429DEA4EC00DF161D /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -269,7 +447,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"diablo3Before/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = diablo3Before/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -297,7 +475,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"diablo3Before/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = diablo3Before/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -337,6 +515,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		835CFA5829DEC9B600DF161D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		835CFA5929DEC9B600DF161D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 835CFA5829DEC9B600DF161D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 835CFA1329DC003700DF161D /* Project object */;
 }

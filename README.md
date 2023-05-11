@@ -361,5 +361,3 @@ If it is done, we can use like this:
  Because the token is a sensitive information, like a password, it needs to be saved in the  keychain. Therefore, when the **`getAccessToken()`** method is called and the token is successfully obtained, it is stored in the keychain using **`KeychainHelper`.**
 
 For more information, please read [this article](https://www.notion.so/Keychain-Helper-for-tokens-e6e5d112069847a39228a149178c11cb).
-
-# 4️⃣ Part of TCA

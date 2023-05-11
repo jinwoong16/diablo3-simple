@@ -7,11 +7,21 @@
 
 import SwiftUI
 
+import ComposableArchitecture
+
 @main
 struct diablo3BeforeApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+//  let blizzardAPI = BlizzardAPI(credentials: .init(), region: .us, locale: .en_US)
+  
+  var body: some Scene {
+    WindowGroup {
+      Home(
+        store: Store(
+          initialState: HomeFeature.State(),
+          reducer: HomeFeature()
+//            .dependency(\.blizzardAPI, blizzardAPI)
+        )
+      )
     }
+  }
 }

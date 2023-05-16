@@ -92,14 +92,13 @@ struct BlizzardCredentials {
 }
 ```
 
-<aside>
-💡 What is the role of encrypted property?
+>💡 What is the role of encrypted property?
+>
+> Client Credential Flow must make a POST request with the `multipart-form` data to the token URI: `grant-type=client_credentials`, and must pass basic authorization using the `client_id` as the user and the `client_secret` as the user password. Basic authorization uses “id:password” form encrypted with base64.
 
-Client Credential Flow must make a POST request with the `multipart-form` data to the token URI: `grant-type=client_credentials`, and must pass basic authorization using the `client_id` as the user and the `client_secret` as the user password. Basic authorization uses “id:password” form encrypted with base64.
-
-</aside>
 
 # 3️⃣ Part of API
+> 💡 If you don’t familliar with oauth, read this [article](https://boiling-dodo-2b9.notion.site/Oauth-in-Diablo-3-proj-1d252596484443e4a24299c62cb77331).
 
 I have two parts of this section:
 

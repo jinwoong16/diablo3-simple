@@ -359,4 +359,5 @@ If it is done, we can use like this:
 
  Because the token is a sensitive information, like a password, it needs to be saved in the  keychain. Therefore, when the **`getAccessToken()`** method is called and the token is successfully obtained, it is stored in the keychain using **`KeychainHelper`.**
 
-For more information, please read [this article](https://www.notion.so/Keychain-Helper-for-tokens-e6e5d112069847a39228a149178c11cb).
+# 4️⃣ Conclusion
+ In this article, I provide a brief overview of using the API with Swift and handling an authentication. As I aim to learn how to use an API effectively and handle networking processes proficiently, I have meticulously read the documentation. Howeber, there are still points that can be improved and refactored. If you come across anything that needs modification, please let me know. I hope this article will be helpful. Thank you.
